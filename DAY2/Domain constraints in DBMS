@@ -1,0 +1,14 @@
+In DBMS, constraints are the set of rules that ensures that when an authorized user modifies the database they do not disturb the data consistency 
+and the constraints are specified within the DDL commands like “alter” and “create” command. There are several types of constraints available in DBMS and they are:
+
+Domain constraints
+Entity Integrity constraints
+Referential Integrity constraints
+Key constraints
+In this article, we will only discuss domain constraints.
+
+Domain Constraints
+Domain Constraints are user-defined columns that help the user to enter the value according to the data type.
+And if it encounters a wrong input it gives the message to the user that the column is not fulfilled properly. Or in other words,
+it is an attribute that specifies all the possible values that the attribute can hold like integer, character, date, time, string, etc. 
+It defines the domain or the set of values for an attribute and ensures that the value taken by the attribute must be an atomic value(Can’t be divided) from its domain.
