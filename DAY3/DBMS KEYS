@@ -1,0 +1,26 @@
+Why do we require Keys in DBMS?
+We use a key for defining various types of integrity constraints in a database. A table, 
+on the other hand, represents a collection of the records of various events for any relation. Now,
+there might be thousands of these records, and some of these might even be duplicated.
+
+Thus, we need a way in which one can identify all of these records uniquely and separately, i.e.,
+without any duplicates. This hassle is removed with the help of keys.
+
+For example, let us consider a database of all the students who are studying in a college. 
+What attribute of all the students, according to you, will identify each of these people uniquely? 
+We can refer to these students by their names, departments, sections, and year. Similarly, we can also mention only the university roll number
+and fetch all the other details based on that roll number.
+
+The keys in DBMS can be a combination of multiple attributes (or columns), or they can be just one single attribute. The primary motive of the keys is 
+to provide every record with a unique identity of its own.
+
+What are the different types of Keys in DBMS?
+Keys are of seven broad types in DBMS:
+
+Candidate Key
+Primary Key
+Foreign Key
+Super Key
+Alternate Key
+Composite Key
+Unique Key
